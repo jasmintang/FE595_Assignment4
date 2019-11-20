@@ -8,8 +8,6 @@ from sklearn.datasets import load_wine
 
 boston = load_boston()
 print(boston.data.shape)
-iris = load_iris()
-wine = load_wine()
 
 from sklearn.linear_model import LinearRegression
 
